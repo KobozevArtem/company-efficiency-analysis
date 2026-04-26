@@ -1,36 +1,76 @@
 # Company Efficiency Analysis
 
-Business analysis project on branch efficiency in an auto parts retail company using SQL, Python, Pandas, and Tableau.
+Проект по бизнес-анализу эффективности филиальной сети компании, занимающейся продажей автомобильных запчастей, с использованием SQL, Python, Pandas и Tableau.
 
-## Project Goal
-The goal of the project is to analyze branch performance, identify regional differences, evaluate management-related factors, and formulate practical business recommendations.
+## Цель проекта
 
-## Data
-The project is based on a relational database containing information about:
-- branches
-- managers
-- locations
-- branch reports
+Цель проекта — проанализировать эффективность филиалов компании, выявить региональные различия, оценить влияние управленческого фактора и сформулировать практические рекомендации для повышения результативности бизнеса.
 
-## Tools
+## Описание данных
+
+Проект основан на реляционной базе данных, содержащей информацию о:
+
+- филиалах компании
+- менеджерах
+- местоположении филиалов
+- отчетных показателях филиалов
+
+В рамках проекта использовались данные о:
+- выручке
+- расходах
+- прибыли
+- количестве клиентов
+- количестве транзакций
+- среднем уровне скидки
+- площади филиалов
+- сроке работы филиала
+- стаже менеджеров
+
+## Используемые инструменты
+
 - Python
 - Pandas
 - SQL
 - SQLite
 - Tableau
 
-## Project Structure
-- `pet-data.py` — data preparation
-- `total.py` — analysis of company performance by years
-- `branches.py` — branch performance analysis
-- `states-cities.py` — regional and city-level analysis
-- `managers.py` — manager performance analysis
+## Структура проекта
 
-## Key Results
-- Identified major differences between high-profit and low-profit branches
-- Found that branch efficiency is strongly related to profit per square meter and average receipt
-- Revealed regional differences between total profit and profit per branch
-- Highlighted underperforming cases requiring additional business review
+- `pet-data.py` — подготовка и объединение данных
+- `total.py` — анализ ключевых показателей компании по годам
+- `branches.py` — анализ эффективности филиалов
+- `states-cities.py` — географический анализ по регионам и городам
+- `managers.py` — анализ эффективности менеджеров
+- `data_mart.csv` — аналитическая витрина, содержащая все данные необходимые для анализа
+- `Pet-проект.pdf` — текстовое описание проекта
+- `Комплексный анализ.pdf` — презентация проекта
 
-## Outcome
-The project resulted in analytical conclusions and business recommendations aimed at improving branch efficiency and expanding the company’s market presence.
+## Основные этапы анализа
+
+1. Подготовка и очистка данных  
+2. Формирование аналитической витрины  
+3. Анализ динамики показателей компании по годам  
+4. Анализ эффективности филиалов  
+5. Географический анализ  
+6. Анализ управленческого фактора  
+7. Формулирование выводов и рекомендаций  
+
+## Ключевые результаты
+
+- Выявлены существенные различия между наиболее и наименее прибыльными филиалами
+- Определено, что одними из ключевых факторов высокой прибыльности являются прибыль на квадратный метр площади и высокий средний чек
+- Выявлены региональные различия между совокупной прибылью и средней прибылью на один филиал
+- Установлено, что масштаб присутствия компании в регионе не всегда означает высокую эффективность одного филиала
+- Определены филиалы и управленческие зоны, требующие дополнительного анализа и возможной оптимизации
+
+## Практическая ценность проекта
+
+Результаты исследования позволяют:
+- выявить точки с низкой эффективностью использования площади
+- определить регионы с потенциалом для расширения присутствия
+- найти филиалы с проблемами монетизации клиентского спроса
+- сформулировать рекомендации по ассортименту, кросс-продажам и управленческому контролю
+
+## Итог
+
+В рамках проекта были получены аналитические выводы и рекомендации, направленные на повышение эффективности филиальной сети и улучшение финансовых результатов.
